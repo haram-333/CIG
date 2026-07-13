@@ -32,7 +32,7 @@ import { Footer2 } from "./components/Footer2";
 export default function Page() {
   return (
     <ReactLenis root options={{ lerp: 0.08, smoothWheel: true }}>
-      <div className="bg-background min-h-screen text-slate-800">
+      <div className="bg-background min-h-screen text-slate-800 overflow-x-hidden w-full">
         <Navbar9 />
         <Header15 />
         <Header65 />
