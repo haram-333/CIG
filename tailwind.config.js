@@ -7,6 +7,16 @@ export default {
   ],
   presets: [require("@relume_io/relume-tailwind")],
   theme: {
+    container: {
+      center: true,
+      screens: {
+        sm: '480px',
+        md: '768px',
+        lg: '992px',
+        xl: '1280px',
+        xxl: '1440px',
+      },
+    },
     extend: {
       colors: {
         primary: {
