@@ -23,7 +23,6 @@ export function Header15() {
                 loop 
                 muted 
                 playsinline 
-                oncanplay="this.playbackRate = 2.0;"
               >
                 <source src="/hero.mp4" type="video/mp4" />
               </video>
