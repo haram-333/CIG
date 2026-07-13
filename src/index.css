@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-slate-800 bg-background font-sans antialiased selection:bg-secondary-500 selection:text-white overflow-x-hidden;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold text-primary-900 tracking-tight font-serif;
+  }
+  
+  button, input[type="submit"], input[type="button"] {
+    @apply rounded-full !important;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-[100rem] mx-auto w-full !important;
+  }
+}
+
+/* Base custom properties for Relume UI if needed */
+:root {
+  --background-primary: #F4F7F6;
+  --background-secondary: #E9EFEC;
+  --border-primary: #e2e8f0;
+}
